@@ -1,0 +1,87 @@
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+**/build
+
+# KiCAD
+
+# Temporary files
+hardware/kicad/**/*.000
+hardware/kicad/**/*.bak
+hardware/kicad/**/*.bck
+hardware/kicad/**/*.kicad_pcb-bak
+hardware/kicad/**/*.kicad_sch-bak
+hardware/kicad/**/*-backups
+hardware/kicad/**/*.kicad_prl
+hardware/kicad/**/*.sch-bak
+hardware/kicad/**/*~
+hardware/kicad/**/*.tmp
+hardware/kicad/**/*.log
+hardware/kicad/**/*-save.pro
+hardware/kicad/**/*-save.kicad_pcb
+hardware/kicad/**/fp-info-cache
+hardware/kicad/**/fp-lib-table
+hardware/kicad/**/sym-lib-table
+hardware/kicad/**/_autosave-*
+hardware/kicad/**/gerber
+
+# Netlist files (exported from Eeschema)
+hardware/kicad/**/*.net
+
+# Autorouter files (exported from Pcbnew)
+hardware/kicad/**/*.dsn
+hardware/kicad/**/*.ses
+
+# Exported BOM files
+hardware/kicad/**/*.xml
+hardware/kicad/**/*.csv
